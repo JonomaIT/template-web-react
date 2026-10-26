@@ -9,7 +9,7 @@ import { getConfig } from "../app/config";
 import { useFollow } from "../app/navigation";
 
 const STEPS = [
-  "Troque o nome: APP_ID em src/app/appId.ts, name em package.json e em deploy/app.hcl (= nome do repo).",
+  "Troque o nome: APP_ID em src/app/appId.ts, name em package.json e em deploy/app.hcl (= nome do repo), e o time da squad na primeira linha de .github/CODEOWNERS.",
   "Troque os nomes públicos em deploy/env/production.tfvars.",
   "Aponte public/config.json para a sua API.",
   "Substitua o exemplo: src/features/items, as páginas de itens, as rotas e o mock da API.",

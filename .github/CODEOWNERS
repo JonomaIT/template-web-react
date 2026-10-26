@@ -1,2 +1,7 @@
-# Owner of everything until there are teams (see Organização do GitHub).
-* @JoshuelNobre
+# Owners by path (ADR-014). In a new app, replace @JonomaIT/gh-infra on the first line with your
+# squad's team (gh-dev-<squad>): the squad owns its code and everyday values; shared data, the
+# production size and the pipeline stay with the platform team. The last matching line wins.
+*                               @JonomaIT/gh-infra
+/deploy/data.hcl                @JonomaIT/gh-infra
+/deploy/env/production.tfvars   @JonomaIT/gh-infra
+/.github/                       @JonomaIT/gh-infra

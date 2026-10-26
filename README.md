@@ -7,7 +7,7 @@ Running in production: [`web-sales`](https://github.com/JonomaIT/web-sales).
 ## From template to your app
 
 1. **Create the repo**: _Use this template_ on GitHub (or `gh repo create JonomaIT/web-<name> --template JonomaIT/template-web-react --public --clone`). The name is `web-<name>`: it is also the app's name everywhere (ADR-005).
-2. **Name it**: `APP_ID` in `src/app/appId.ts`, `name` in `package.json` and in `deploy/app.hcl`.
+2. **Name it**: `APP_ID` in `src/app/appId.ts`, `name` in `package.json` and in `deploy/app.hcl`; your squad's team (`gh-dev-<squad>`) on the first line of `.github/CODEOWNERS`.
 3. **Public names**: `hosts` in `deploy/env/production.tfvars` (ADR-010: the deploy creates them).
 4. **Your API**: `apiUrl` in `public/config.json`; its contract in `src/features/<yours>` and its simulation in `src/mocks/handlers.ts`.
 5. **Replace the example**: `src/features/items`, the `Itens` pages and their routes in `src/app/router.tsx`.

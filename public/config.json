@@ -1,0 +1,4 @@
+{
+  "environment": "development",
+  "apiUrl": "https://api.example.com"
+}

@@ -1,1 +1,1 @@
-hosts = ["exemplo.joshuel.com.br"] # the site's public names (ADR-010): change them in the new repo
+hosts = ["exemplo"] # labels under the platform's zone (exemplo.<zone>, ADR-010): change them in the new repo

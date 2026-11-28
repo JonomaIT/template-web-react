@@ -1,0 +1,15 @@
+# Software catalog entry (Backstage format). It is the source of truth for what this repo is,
+# who owns it and how it runs; a portal or a script can read every repo's file.
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: template-web-react
+  description: "Golden-path template for web apps (runtime cloudfront): React, TypeScript, Vite and Cloudscape."
+  annotations:
+    github.com/project-slug: JonomaIT/template-web-react
+  tags: [react, cloudfront, template]
+spec:
+  type: template
+  lifecycle: production
+  owner: group:jonomait/gh-infra
+  system: platform
